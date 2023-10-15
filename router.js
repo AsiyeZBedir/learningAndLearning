@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// Router nesnesini ana uygulamaya bağlama
+// Router nesnesini ana uygulamaya bağlamak
 app.use('/blog', router);
 
 app.listen(3000, () => {
