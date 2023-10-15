@@ -13,7 +13,7 @@ app.listen(port, () => {
   console.log(`Uygulama http://localhost:${port} adresinde çalışıyor`);
 });
 
-// app.js (Devamı)
+// app.js (Devam)
 const todos = [];
 
 // Yapılacakları listeleme
