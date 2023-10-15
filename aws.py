@@ -1,11 +1,11 @@
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-# AWS kimlik bilgilerini ayarlayın
+# AWS kimlik bilgilerini ayarla
 aws_access_key_id = 'Your_AWS_Access_Key_ID'
 aws_secret_access_key = 'Your_AWS_Secret_Access_Key'
 
-# AWS S3 istemcisini oluşturun
+# AWS S3 istemcisini oluştur
 s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
 
 # Yüklemek istediğiniz dosyanın adı ve S3 kovası adı
