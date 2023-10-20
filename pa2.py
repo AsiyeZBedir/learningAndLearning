@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 # CSV dosyasından veri okuma
 data = pd.read_csv('veri.csv')
 
